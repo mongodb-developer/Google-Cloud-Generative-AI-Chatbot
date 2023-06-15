@@ -2,6 +2,9 @@
 
 This is a demo of a customer service chatbot using Generative AI through Google Cloud's Vertex AI PaLM APIs. The app also leverages MongoDB Atlas Search to look for relevant answers in a MongoDB Atlas database. Finally, the app can detect dissatisfied customers with sentiment analysis.
 
+<img alt="Screenshot of the ‘Customer Service Chatbot’ app showing the sentiment analysis of a customer request" src="./images/Chatbot%20sentiment%20analysis.png" height="700" />
+
+
 ## Quickstart
 
 1. MongoDB Atlas setup
@@ -35,7 +38,7 @@ This is a demo of a customer service chatbot using Generative AI through Google 
         "Claim_status":"In progress","customer_id":"111"
       }
       ```
-    * Create an Atlas Search index with the name `default` on the `Claims` collection using the default settings. Follow the Atlas Search documentation: https://www.mongodb.com/docs/atlas/atlas-search/create-index/
+    * Create an Atlas Search index with the name `default` on the `Claims` collection using the default settings. Follow the Atlas Search documentation: https://www.mongodb.com/docs/atlas/atlas-search/create-index/.
 
 1. Google Cloud setup
 
