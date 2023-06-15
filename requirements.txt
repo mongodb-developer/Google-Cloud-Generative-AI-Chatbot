@@ -1,0 +1,4 @@
+flask~=2.2.5
+google-cloud-aiplatform
+pymongo
+gunicorn
