@@ -62,7 +62,7 @@ This is a demo of a customer service chatbot using Generative AI through Google 
     * Clone the repository.
 
       ```commandline
-      git clone [https://@github.com/mongodb-developer/gen-ai-chatbot.git](https://github.com/mongodb-developer/Google-Cloud-Generative-AI-Chatbot.git)
+      git clone https://github.com/mongodb-developer/Google-Cloud-Generative-AI-Chatbot.git
       ```
 
     * Update the MongoDB Atlas database connection string and the Google Cloud project name in `main.py`.
